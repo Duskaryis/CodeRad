@@ -40,7 +40,7 @@
 	line-height: var(--size-20);
 }
 .bg-header {
-	background-image: url(../assests/images/bg-header-1.jpg);
+	background-image: url(../assets/images/bg-header-1.jpg);
 	background-color: var(--footer);
 	background-repeat: no-repeat;
 	background-size: cover;
