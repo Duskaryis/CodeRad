@@ -70,3 +70,12 @@
 .hero-header {
 	color: var(--white);
 }
+
+.why-me-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.why-me-wrapper div {
+	flex: 1;
+}
