@@ -338,7 +338,7 @@ span.bg-color-6 {
 footer.bg-footer {
 	background-color: var(--footer);
 }
-footer .footer-bottom {
+.bg-footer-base {
 	background-color: var(--footer-base);
 }
 
