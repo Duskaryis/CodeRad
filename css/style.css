@@ -53,6 +53,7 @@
 
 .bg-header {
 	background-image: url(../assets/images/bg-header-1.jpg);
+	padding: var(--size-150);
 }
 .video-demo {
 	background-image: url(../assets/images/bg-demo.jpg);
@@ -90,6 +91,11 @@
 
 .why-me-wrapper div {
 	flex: 1;
+}
+
+.why-me-wrapper .block-text {
+	padding-right: var(--size-100);
+	max-width: 31.25rem;
 }
 
 .block-text {
@@ -174,6 +180,7 @@ span.bg-color-6 {
 .video-demo .block-text h2,
 .video-demo .block-text p {
 	color: var(--white);
+	margin: var(--size-50) 0;
 }
 
 .video-btn {
@@ -217,7 +224,7 @@ span.bg-color-6 {
 .price-card {
 	background-color: var(--white);
 	border-radius: 8px;
-	padding: var(--size-16);
+	padding: var(--size-40) var(--size-16);
 }
 
 .price-card .checked {
@@ -265,6 +272,10 @@ span.bg-color-6 {
 
 .plan-btn-wrapper {
 	text-align: center;
+}
+
+.plan-btn-wrapper a {
+	width: 100%;
 }
 
 .testimonials {
@@ -357,6 +368,7 @@ footer .footer-col {
 	color: var(--white);
 	font-weight: 500;
 	margin-bottom: var(--size-16);
+	font-size: var(--size-16);
 }
 
 .contact-info li {
@@ -382,6 +394,10 @@ footer .footer-col {
 	color: #858497;
 }
 
+.services-wrapper h5 {
+	margin-bottom: initial;
+}
+
 .recent-posts {
 	display: flex;
 	margin-bottom: var(--size-16);
@@ -398,6 +414,7 @@ footer .footer-col {
 .post-inner h6 a {
 	color: var(--white);
 	font-weight: 600;
+	font-size: 0.75rem;
 }
 
 .post-inner span {
@@ -428,4 +445,21 @@ footer .footer-col {
 
 .footer-bottom-links ul li a {
 	color: var(--white);
+}
+
+#scrollUp {
+	background-color: transparent;
+	background-image: linear-gradient(90deg, #9ccdfe 0%, #94aafd 100%);
+	color: var(--white);
+	font-size: var(--size-20);
+	height: var(--size-50);
+	width: var(--size-50);
+	line-height: var(--size-50);
+	position: fixed;
+	bottom: var(--size-30);
+	right: var(--size-30);
+	text-align: center;
+	border-radius: 8px;
+	cursor: pointer;
+	z-index: 100;
 }
